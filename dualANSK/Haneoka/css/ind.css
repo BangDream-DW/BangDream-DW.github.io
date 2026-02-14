@@ -8,7 +8,6 @@ body {
 }
 .sec{
     border: #808080 solid 2px;
-    margin: 0 500px;
 }
 .sulan{
     display: flex;
@@ -18,7 +17,6 @@ body {
 #img-wrap{
     margin-left: 100px;
 }
-
 .sec h2{
     color: #003893;
     font-size: 24px;
