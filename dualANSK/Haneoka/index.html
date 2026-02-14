@@ -1,59 +1,120 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
+
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<!-- TemplateBeginEditable name="doctitle" -->
-<title>羽丘周刊门户网站</title>
-<!-- TemplateEndEditable -->
-<!-- TemplateBeginEditable name="head" -->
-<!-- TemplateEndEditable -->
-<link href="ind.css" rel="stylesheet" type="text/css" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>羽丘周刊门户网站</title>
+  <link rel="stylesheet" href="./css/ind.css">
 </head>
 
 <body>
-
-<div class="container">
-  <div class="header"><a href="#">
-    <img src="logo.png" alt="羽丘周刊徽标" class="logo" />
-  </a> 
-    <!-- end .header --></div>
-  <div class="content">
-    <div id="img-wrap">
-      <img src="../img/001.png" name="羽丘女子学园2020级入学典礼于4月8日成功召开" alt="羽丘女子学园2020级入学典礼于4月8日成功召开">
-      <img src="../img/002.png" name="羽丘-花咲川两校联合会演暂定于5月下旬开幕" alt="羽丘-花咲川两校联合汇演暂定于5月下旬开幕">
-      <img src="../img/003.png">
-      <img src="../img/004.png">
+  <header>
+    <div class="LogoLogIn">
+      <img src="./img/logo.webp" alt="羽丘周刊徽标" class="logo" />
+      <table id="tab">
+        <tr>
+          <td> <label for="name">用户名</label> </td>
+          <td> <input type="text" id="name" placeholder="请输入用户名"></td>
+          <td><input type="radio" id="AutoLogIn">自动登录</td>
+          <td><a href="">找回密码</a></td>
+        </tr>
+        <tr>
+          <td><label for="pwd">密码</label></td>
+          <td><input type="password" id="pwd" placeholder="请输入密码"></td>
+          <td><input type="submit" value="登录"></td>
+          <td><a href="">立即注册</a></td>
+        </tr>
+      </table>
     </div>
-    
-    <br><hr><br>
-    <h1> 周刊要闻 </h1>
-    <a href="reports/20200414-03R.html"> <p >【爆】学生会长羽泽鸫宣布解散学生代表大会 </p> </a>
-    <a href="reports/20200414-01R.html"> <p >羽丘-花咲川两校联合会演暂定于5月下旬开幕 </p> </a>
-    <a href="reports/20200414-02R.html"> <p >足球社、桥牌社等3个社团成功完成活动室摘牌 </p> </a>
-    <a href="#"> <p >注意了！2020年这三种行为要不得。 </p> </a>
-    <a href="#"> <p >2020级新生入学典礼圆满结束。点我查看效果 </p> </a>
-    <a href="#"> <p >副校长评价羽丘论坛：很好的一次尝试 </p> </a>
-    <br><hr><br>
-    <h1> 热点时评 </h1>
-    <a href="#"> <p > 发挥技术优势，注重创新引领 ——羽丘论坛科创版的创立为新时代科技高质量发展注入新动能 </p> </a>
-    <a href="#"> <p > 变革的路口 ——后羽泽时代，“我们的羽丘”将何去何从？ </p> </a>
-    <a href="#"> <p > 乐队盛行时期，更注重社团的“泛”还是乐队的“专”？听宣传委员一一解答。 </p> </a>
-    <br><hr><br>
-    <h1> 往期资讯 </h1>
-    <a href="#"> <p > 三个月内 </p> </a>
-    <a href="#"> <p > 半年内 </p> </a>
-    <a href="#"> <p > 一年内 </p> </a>
-    <a href="#"> <p > 更早期 </p> </a>
-    <br><hr><br>
-    <h1> 联系我们 </h1>
-    <p> &nbsp; &nbsp; 投稿、反馈请联系：</p>
-    <p>E-mail: haneoka@its-mygo.site</p>
+    <nav id="NavBar">
+      <a href="">羽丘论坛</a>
+      <a href="./news.html" id="NB">校园新闻</a>
+      <a href="">每日签到</a>
+      <a href="">二手物品</a>
+      <a href="">联系我们</a>
+    </nav>
+  </header>
+  <main>
+    <p class="popularity">
+      <img src="" alt="">
+      今日:114
+      <span id="pipe">|</span>
+      昨日:514
+      <span id="pipe">|</span>
+      帖子:19810
+    </p>
+    <div>
+    <div class="sulan">
+      <div id="img-wrap">
+        <img src="./img/001.png" name="羽丘女子学园2020级入学典礼于4月8日成功召开" alt="羽丘女子学园2020级入学典礼于4月8日成功召开">
+        <img src="./img/002.png" name="羽丘-花咲川两校联合会演暂定于5月下旬开幕" alt="羽丘-花咲川两校联合汇演暂定于5月下旬开幕">
+        <img src="./img/003.png">
+        <img src="./img/004.png">
+      </div>
+      <div id="news">
+        <h2>新闻速递</h2>
+        <table>
+          <tr>
+            <a href="./20200414-01R.html">
+              <p>【爆】学生会长羽泽鸫宣布解散学生代表大会 </p>
+            </a>
+          </tr>
+          <tr>
+            <a href="reports/20200414-01R.html">
+              <p>羽丘-花咲川两校联合会演暂定于5月下旬开幕 </p>
+            </a>
+          </tr>
+          <tr>
+            <a href="#">
+              <p>注意了！2020年这三种行为要不得。 </p>
+            </a>
+          </tr>
+          <tr>
+            <a href="#">
+              <p>2020级新生入学典礼圆满结束。点我查看效果 </p>
+            </a>
+          </tr>
+        </table>
+      </div>
+
+    </div>
+    <hr>
+    <div class="sec">
+      <h2>校园板块</h2>
+      <table>
+        <tbody>
+          <tr>
+            <a href="./news.html">
+              <p>羽丘资讯</p>
+            </a>
+          </tr>
+        </tbody>
+        <tbody id="exr1">
+          <tr>
+            <p><a href="">新生问答</a></p>
+          </tr>
+          <tr>
+            <p><a href="">情感驿站</a></p>
+          </tr>
+          <tr>
+            <p><a href="">社团中心</a></p>
+          </tr>
+          <tr>
+            <p><a href="">随笔文字</a></p>
+          </tr>
+            <p><a href="">站务管理</a></p>
+        </tbody>
+      </table>
+    </div>
+  </main>
+  <footer>
+    <p>投稿、反馈请联系:&nbsp; &nbsp;E-mail: haneoka@its-mygo.site</p>
     <p>TEL: 114514</p>
     <p>地址：行政楼108</p>
-    <br><hr><br>
-  <div class="footer">
-    <p>羽丘学生会·文宣部 &nbsp;2020·4 &nbsp;  &nbsp;  &nbsp; 新闻了解社会，资讯关注生活。</p>
-    <!-- end .footer --></div>
-  <!-- end .container --></div>
+    <hr>
+    <p>羽丘学生会·文宣部 &nbsp;2020·4 &nbsp; &nbsp; &nbsp; 新闻了解社会，资讯关注生活。</p>
+  </footer>
 </body>
+
 </html>
