@@ -7,11 +7,16 @@ body {
 	color: #000;
 }
 
-img.logo {
-	width : 22%;
-	height : 9%;
-	max-width: 252;
-	max-height: 57;
-	background: #e2eaf8;
-	display:block;
+.SecondNav{
+	background-color: #003893;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-top: 2px solid #002766;
+ }
+.SecondNav a{
+	color: rgb(202, 220, 0);
+    text-decoration: none;
+    font-size: 18px;
 }
+ 
