@@ -39,6 +39,9 @@ body {
     color: rgb(110, 31, 31);
     font-size: 16px;
 }
+#news h2{
+    border-bottom:2px solid #003893;
+}
 
 
 .popularity {
