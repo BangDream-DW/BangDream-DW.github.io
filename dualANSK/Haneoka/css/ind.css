@@ -43,8 +43,11 @@ body {
 
 .popularity {
     display: flex;
-    align-items: center;
-    padding-left: 20px;
+    justify-content: center;
+/*     padding-left: 20px;
+ */}
+.popularity img{
+    width: 18px;
 }
 
 

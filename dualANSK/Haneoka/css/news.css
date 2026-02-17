@@ -8,15 +8,30 @@ body {
 }
 
 .SecondNav{
-	background-color: #003893;
+	background-color: #024DC2;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     border-top: 2px solid #002766;
  }
 .SecondNav a{
+	display: inline-block;
+	padding: 1px 5%;
 	color: rgb(202, 220, 0);
     text-decoration: none;
     font-size: 18px;
 }
- 
+.SecondNav a:hover{
+	position: relative;
+    right: 3px;
+    bottom: 2px;
+    background-color: #013180;
+    color: rgb(132, 0, 255);
+    font-weight:550;
+    text-shadow: 2px 1px 0 rgb(63, 0, 122) ;
+}
+#pt{
+	width: 18px;
+	position: relative;
+	top: 3px;
+}
