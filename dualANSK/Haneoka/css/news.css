@@ -49,6 +49,9 @@ a:hover {
 	text-decoration: underline;
 	color: rgb(85, 150, 255);
 }
+.ThirdNav{
+	margin-left: 4%;
+}
 .ThirdNav ul{
 	list-style: none;
 	display: flex;
@@ -60,5 +63,44 @@ a:hover {
 	padding-bottom: 6px;
 }
 .ThirdNav a:hover{
-	border-bottom: 2px solid rgb(85, 150, 255);
+	animation: BorderAppear .5s ease .1s 1 normal forwards;
+}
+.y{
+	display: flex;
+	justify-content: flex-start;
+	margin:0  5%;
+	padding-left: 3%;
+	background-color: rgba(123, 173, 254, 0.486);
+	border: 1px solid rgba(95, 134, 197, 0.486);
+}
+.y a:hover{
+	text-decoration: none;
+}
+.y #newest{
+	color: rgb(85, 150, 255);
+	font-weight: 600;
+}
+.pipe{
+	color: rgba(123, 173, 254, 0.486);
+}
+.AllNews{
+	margin: 0  5%;
+	background-color: rgba(123, 173, 254, 0.486);
+}
+.AllNews table{
+	margin-left: 2%;
+}
+.AllNews a:hover{
+	color: #000;
+}
+@keyframes BorderAppear{
+	0%{
+		border-bottom: none;
+	}
+	50%{
+		border-bottom: 1px solid rgb(85, 150, 255);
+	}
+	100%{
+		border-bottom: 2px solid rgb(85, 150, 255);
+	}
 }
