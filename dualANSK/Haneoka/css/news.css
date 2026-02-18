@@ -47,7 +47,7 @@ a {
 
 a:hover {
 	text-decoration: underline;
-	color: rgb(85, 150, 255);
+	color: #555;
 }
 .ThirdNav{
 	margin-left: 4%;
@@ -70,22 +70,25 @@ a:hover {
 	justify-content: flex-start;
 	margin:0  5%;
 	padding-left: 3%;
-	background-color: rgba(123, 173, 254, 0.486);
-	border: 1px solid rgba(95, 134, 197, 0.486);
+	background-color: #dededecf;
+	border: 1px solid #b3b2b2;
 }
 .y a:hover{
 	text-decoration: none;
+	color: rgb(95, 95, 95);
 }
 .y #newest{
-	color: rgb(85, 150, 255);
+	color: #848484;
 	font-weight: 600;
 }
 .pipe{
-	color: rgba(123, 173, 254, 0.486);
+	color: #b3b2b2;
 }
 .AllNews{
 	margin: 0  5%;
-	background-color: rgba(123, 173, 254, 0.486);
+	background-color: #f3f2f2cf;
+	border: 1px solid #b3b2b2;
+	border-top: none;
 }
 .AllNews table{
 	margin-left: 2%;
@@ -98,9 +101,9 @@ a:hover {
 		border-bottom: none;
 	}
 	50%{
-		border-bottom: 1px solid rgb(85, 150, 255);
+		border-bottom: 1px solid #1a5ac0a5;
 	}
 	100%{
-		border-bottom: 2px solid rgb(85, 150, 255);
+		border-bottom: 2px solid #1a5ac0a5;
 	}
 }

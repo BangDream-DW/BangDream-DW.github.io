@@ -1,4 +1,10 @@
 @charset "utf-8";
+a:hover,
+a:active,
+a:focus {
+    /* 此组选择器将为键盘导航者提供与鼠标使用者相同的悬停体验。 */
+    text-decoration: none;
+}
 
 body {
     font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
@@ -33,7 +39,7 @@ body {
     border: 2px solid #003893;
     padding: 20px 10px 50px;
     margin-right: 100px;
-    background-color: #d5d5d5;
+    background-color: #f3f2f2cf;
 }
 
 #news a {
@@ -53,18 +59,51 @@ body {
 .popularity img{
     width: 18px;
 }
+.sec a{
+    text-decoration: none;
+    color: #000;
+    position: relative;
+}
+.sec li{
+    border-bottom: 1px dashed #003893;
+}
+ .sec a:hover{
+    text-decoration: underline;
 
-
-
-
+}
+.article{
+    display: grid;
+    grid-template-columns: 1fr 1fr 4fr 1fr;
+    grid-template-rows: repeat(7,1fr);
+}
+.icons{
+    
+    grid-row: 1/-1;
+    grid-column: 1/1;
+    justify-self: center;
+}
+.icons img{
+    max-width: 27px;
+    opacity: .6;
+}
+.article li{
+    font-size: large;
+}
+.article ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    grid-row: 1/-1;
+    grid-column: 2/2;
+}
 
 h1,
 h2,
 h3,
 h4,
 h5,
-h6,
-p {
+h6,p
+ {
     margin-top: 0;
     /* 删除上边距可以解决边距会超出其包含的 div 的问题。剩余的下边距可以使 div 与后面的任何元素保持一定距离。 */
     padding-right: 15px;
@@ -82,12 +121,6 @@ a img {
     text-decoration: underline;
 }
  */
-a:hover,
-a:active,
-a:focus {
-    /* 此组选择器将为键盘导航者提供与鼠标使用者相同的悬停体验。 */
-    text-decoration: none;
-}
 
 /* ~~ 此容器包含所有其它 div，并依百分比设定其宽度 ~~ */
 .container {
