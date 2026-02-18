@@ -9,19 +9,22 @@ header {
 
 .LogoLogIn {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-end;
     align-items: center;
 }
-.LogoLogIn a:hover{
+
+.LogoLogIn a:hover {
     text-decoration: underline;
-    color: rgb(111, 2, 212)
+    color: rgb(111, 2, 212);
 }
+
 .logo {
     width: 22%;
     height: 9%;
     max-width: 252;
     max-height: 57;
     display: block;
+    margin-right: auto;
 }
 
 .tab {
@@ -40,23 +43,25 @@ nav {
     flex-wrap: wrap;
     justify-content: space-around;
     border-top: 2px solid #002766;
-    
+
 }
+
 nav a {
-/*     display: inline-block;
- */    
+    /*     display: inline-block;
+ */
     padding: 3px 5%;
     color: rgb(202, 220, 0);
     text-decoration: none;
     font-size: 18px;
 }
-nav a:hover{
+
+nav a:hover {
     position: relative;
     right: 3px;
     bottom: 2px;
     background-color: #013180;
     color: rgb(132, 0, 255);
-    font-weight:550;
-    text-shadow: 2px 1px 0 rgb(63, 0, 122) ;
+    font-weight: 550;
+    text-shadow: 2px 1px 0 rgb(63, 0, 122);
 
 }

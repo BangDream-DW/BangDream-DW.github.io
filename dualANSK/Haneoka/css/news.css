@@ -1,4 +1,5 @@
 @charset "utf-8";
+
 body {
 	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
 	background: #e2eaf8;
@@ -7,31 +8,57 @@ body {
 	color: #000;
 }
 
-.SecondNav{
+.SecondNav {
 	background-color: #024DC2;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    border-top: 2px solid #002766;
- }
-.SecondNav a{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	border-top: 2px solid #002766;
+}
+
+.SecondNav a {
 	display: inline-block;
 	padding: 1px 5%;
 	color: rgb(202, 220, 0);
-    text-decoration: none;
-    font-size: 18px;
+	text-decoration: none;
+	font-size: 18px;
 }
-.SecondNav a:hover{
+
+.SecondNav a:hover {
 	position: relative;
-    right: 3px;
-    bottom: 2px;
-    background-color: #013180;
-    color: rgb(132, 0, 255);
-    font-weight:550;
-    text-shadow: 2px 1px 0 rgb(63, 0, 122) ;
+	right: 3px;
+	bottom: 2px;
+	background-color: #013180;
+	color: rgb(132, 0, 255);
+	font-weight: 550;
+	text-shadow: 2px 1px 0 rgb(63, 0, 122);
 }
-#pt{
+
+#pt {
 	width: 18px;
 	position: relative;
 	top: 3px;
+}
+
+a {
+	text-decoration: none;
+	color: rgb(0,0,0);
+}
+
+a:hover {
+	text-decoration: underline;
+	color: rgb(85, 150, 255);
+}
+.ThirdNav ul{
+	list-style: none;
+	display: flex;
+	gap: 5%;
+}
+.ThirdNav a{
+	font-size: larger;
+	text-decoration: none;
+	padding-bottom: 6px;
+}
+.ThirdNav a:hover{
+	border-bottom: 2px solid rgb(85, 150, 255);
 }
