@@ -14,10 +14,10 @@ body {
     color: #000;
 }
 
-#img-wrap {
+/* #img-wrap {
     margin-left: 100px;
 }
-
+ */
 .sec {
     border: #808080 solid 2px;
     margin: 0 5%;
@@ -116,66 +116,6 @@ a img {
     border: none;
 }
 
-/* ~~ 站点链接的样式必须保持此顺序，包括用于创建悬停效果的选择器组在内。 ~~ */
-/* a:link {
-    text-decoration: underline;
-}
- */
-
-/* ~~ 此容器包含所有其它 div，并依百分比设定其宽度 ~~ */
-.container {
-    width: 80%;
-    max-width: 1260px;
-    /* 可能需要最大宽度，以防止此布局在大型显示器上过宽。这将使行长度更便于阅读。IE6 不遵循此声明。 */
-    min-width: 780px;
-    /* 可能需要最小宽度，以防止此布局过窄。这将使侧面列中的行长度更便于阅读。IE6 不遵循此声明。 */
-    background: #FFF;
-    margin: 0 auto;
-    /* 侧边的自动值与宽度结合使用，可以将布局居中对齐。如果将 .container 宽度设置为 100%，则不需要此设置。 */
-}
-
-/* ~~ 标题未指定宽度。它将扩展到布局的完整宽度。标题包含一个图像占位符，该占位符应替换为您自己的链接徽标 ~~ */
-
-
-/* ~~ 这是布局信息。 ~~ 
-                
-                1) 填充只会放置于 div 的顶部和/或底部。此 div 中的元素侧边会有填充。这样，您可以避免使用任何“方框模型数学”。请注意，如果向 div 自身添加任何侧边填充或边框，这些侧边填充或边框将与您定义的宽度相加，得出 *总计* 宽度。您也可以选择删除 div 中的元素的填充，并在该元素中另外放置一个没有任何宽度但具有设计所需填充的 div。
-                
-                */
-.content {
-    padding: 10px 0;
-}
-
-/* ~~ 此分组的选择器为 .content 区域中的列表提供了空间 ~~ */
-.content ul,
-.content ol {
-    padding: 0 15px 15px 40px;
-    /* 此填充反映上述标题和段落规则中的右填充。填充放置于下方可用于间隔列表中其它元素，置于左侧可用于创建缩进。您可以根据需要进行调整。 */
-}
-
-
-
-/* ~~ 其它浮动/清除类 ~~ */
-.fltrt {
-    /* 此类可用于在页面中使元素向右浮动。浮动元素必须位于其在页面上的相邻元素之前。 */
-    float: right;
-    margin-left: 8px;
-}
-
-.fltlft {
-    /* 此类可用于在页面中使元素向左浮动。浮动元素必须位于其在页面上的相邻元素之前。 */
-    float: left;
-    margin-right: 8px;
-}
-
-.clearfloat {
-    /* 如果从 #container 中删除或移出了 #footer，则可以将此类放置在 <br /> 或空 div 中，作为 #container 内最后一个浮动 div 之后的最终元素 */
-    clear: both;
-    height: 0;
-    font-size: 1px;
-    line-height: 0px;
-}
-
 
 #img-wrap {
 
@@ -198,7 +138,7 @@ a img {
     z-index: 1;
 }
 
-#img-wrap img:first-child {
+/* #img-wrap img:first-child {
     animation: h1 12s linear 0s infinite;
     -webkit-animation: h1 8s linear 0s infinite;
 }
@@ -320,4 +260,4 @@ a img {
         left: 0;
 
     }
-}
+} */
