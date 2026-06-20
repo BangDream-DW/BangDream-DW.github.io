@@ -17,12 +17,14 @@
 <body>
   <header>
     <div class="LogoLogIn">
-      <img src="./img/logo.webp" alt="羽丘论坛徽标" class="logo" />
+      <a href="#">
+        <img src="./imgs/logo.webp" alt="羽丘论坛徽标" class="logo" />
+      </a>
       <table class="tab">
         <tr>
           <td> <label for="name">用户名</label> </td>
           <td> <input type="text" id="name" placeholder="请输入用户名"></td>
-          <td><input type="radio" id="AutoLogIn">自动登录</td>
+          <td> <input type="radio" id="AutoLogIn">自动登录</td>
           <td><a href="">找回密码</a></td>
         </tr>
         <tr>
@@ -52,11 +54,27 @@
     </div>
     <div>
       <div class="sulan">
-        <div id="img-wrap">
-          <img src="./img/001.png" alt="羽丘女子学园2020级入学典礼于4月8日成功召开">
-          <img src="./img/002.png" alt="羽丘-花咲川两校联合汇演暂定于5月下旬开幕">
-          <img src="./img/003.png">
+        <div id="warp">
+          <div class="imgList">
+            <img src="./imgs/001.webp" alt="羽丘女子学园2020级入学典礼于4月8日成功召开">
+            <img src="./imgs/002.webp" alt="羽丘-花咲川两校联合汇演暂定于5月下旬开幕">
+            <img src="./imgs/003.webp">
+          </div>
+          <div class="arrow">
+            <a href="javascript:;" class="left">
+              << /a>
+                <a href="javascript:;" class="right">></a>
+          </div>
+          <div>
+            <ul class="circle-list">
+              <li class="circle active" data-n="0"></li>
+              <li class="circle" data-n="1"></li>
+              <li class="circle" data-n="2"></li>
+            </ul>
+          </div>
         </div>
+
+
         <div id="news">
           <h2>新闻速递</h2>
           <table>
@@ -66,13 +84,13 @@
               </a>
             </tr>
             <tr>
-              <a href="reports/20200414-01R.html">
+              <a href="#">
                 <p>羽丘-花咲川两校联合会演暂定于5月下旬开幕 </p>
               </a>
             </tr>
             <tr>
               <a href="#">
-                <p>注意了！2020年这三种行为要不得。 </p>
+                <p>注意了!2020年这三种行为要不得。 </p>
               </a>
             </tr>
             <tr>
@@ -89,13 +107,13 @@
         <h2>论坛板块</h2>
         <div class="article">
           <ul>
-          <li><a href="./news.html">羽丘资讯</a></li>
-          <li><a href="">新生问答</a></li>
-          <li><a href="">情感驿站</a></li>
-          <li><a href="">社团中心</a></li>
-          <li><a href="">随笔文字</a></li>
-          <li><a href="">灌水讨论</a></li>
-          <li><a href="">站务管理</a></li>
+            <li><a href="./news.html">羽丘资讯</a></li>
+            <li><a href="">新生问答</a></li>
+            <li><a href="">情感驿站</a></li>
+            <li><a href="">社团中心</a></li>
+            <li><a href="">随笔文字</a></li>
+            <li><a href="">灌水讨论</a></li>
+            <li><a href="">站务管理</a></li>
           </ul>
           <div class="icons">
             <div><img src="./icon/chat1B.svg" alt=""></div>
